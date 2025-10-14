@@ -1,0 +1,15 @@
+C:\Users\pperh\OneDrive\Documents\Facultate\An3\cflp\Lab1\bin\Debug\net8.0\Lab1.exe
+C:\Users\pperh\OneDrive\Documents\Facultate\An3\cflp\Lab1\bin\Debug\net8.0\Lab1.deps.json
+C:\Users\pperh\OneDrive\Documents\Facultate\An3\cflp\Lab1\bin\Debug\net8.0\Lab1.runtimeconfig.json
+C:\Users\pperh\OneDrive\Documents\Facultate\An3\cflp\Lab1\bin\Debug\net8.0\Lab1.dll
+C:\Users\pperh\OneDrive\Documents\Facultate\An3\cflp\Lab1\bin\Debug\net8.0\Lab1.pdb
+C:\Users\pperh\OneDrive\Documents\Facultate\An3\cflp\Lab1\obj\Debug\net8.0\Lab1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pperh\OneDrive\Documents\Facultate\An3\cflp\Lab1\obj\Debug\net8.0\Lab1.AssemblyInfoInputs.cache
+C:\Users\pperh\OneDrive\Documents\Facultate\An3\cflp\Lab1\obj\Debug\net8.0\Lab1.AssemblyInfo.cs
+C:\Users\pperh\OneDrive\Documents\Facultate\An3\cflp\Lab1\obj\Debug\net8.0\Lab1.csproj.CoreCompileInputs.cache
+C:\Users\pperh\OneDrive\Documents\Facultate\An3\cflp\Lab1\obj\Debug\net8.0\Lab1.sourcelink.json
+C:\Users\pperh\OneDrive\Documents\Facultate\An3\cflp\Lab1\obj\Debug\net8.0\Lab1.dll
+C:\Users\pperh\OneDrive\Documents\Facultate\An3\cflp\Lab1\obj\Debug\net8.0\refint\Lab1.dll
+C:\Users\pperh\OneDrive\Documents\Facultate\An3\cflp\Lab1\obj\Debug\net8.0\Lab1.pdb
+C:\Users\pperh\OneDrive\Documents\Facultate\An3\cflp\Lab1\obj\Debug\net8.0\Lab1.genruntimeconfig.cache
+C:\Users\pperh\OneDrive\Documents\Facultate\An3\cflp\Lab1\obj\Debug\net8.0\ref\Lab1.dll
