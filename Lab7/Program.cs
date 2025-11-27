@@ -5,7 +5,10 @@
         // Console.WriteLine("Hello");
         
         InputReader reader = new InputReader();
-        reader.OnKeyPressed += (sender, s) => Console.WriteLine(s);
+        CharListener char1 = new CharListener('d', reader);
+        CharListener char2 = new CharListener('a', reader);
+
+        ComplexListener complex1 = new ComplexListener(5, reader);
 
         reader.ReadKeys();
     }

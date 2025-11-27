@@ -8,7 +8,7 @@ public class CharListener
         inputReader.OnKeyPressed += HandleKeyPressed;
     }
 
-    public void HandleKeyPressed(KeyboardInputEventArgs input)
+    public void HandleKeyPressed(object sender, KeyboardInputEventArgs input)
     {
         bool found = false;
         foreach(char character in input.InputString)
@@ -23,6 +23,8 @@ public class CharListener
         if(found == true)
         {
             Console.WriteLine($"Caracterul '{key}' a fost gasit in sirul dat");
+        } else {
+            Console.WriteLine($"Caracterul '{key}' nu a fost gasit in sir");
         }
 
     }
