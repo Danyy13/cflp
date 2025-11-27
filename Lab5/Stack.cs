@@ -1,3 +1,8 @@
+class EmptyStackException : ApplicationException
+{
+    public EmptyStackException(string message) : base(message) { }
+}
+
 public class Stack<T>
 {
     private List<T> stack = new List<T>();
@@ -17,6 +22,10 @@ public class Stack<T>
     public T Pop()
     {
         T temp = this.stack.Last();
+        if(temp == null)
+        {
+            throw new EmptyStackException("Stack is empty\n");
+        }
         this.stack.RemoveAt(this.stackPointer);
         stackPointer--;
         return temp;

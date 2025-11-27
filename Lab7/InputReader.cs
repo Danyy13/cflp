@@ -2,6 +2,11 @@ public class InputReader
 {
     public event EventHandler<KeyboardInputEventArgs> OnKeyPressed;
 
+    public void InvokeOnKeyPressed(string input)
+    {
+        OnKeyPressed?.Invoke(this, new KeyboardInputEventArgs(input));
+    }
+
     public void ReadKeys()
     {
         string line;
@@ -12,7 +17,7 @@ public class InputReader
 
             if(string.IsNullOrEmpty(line)) break;
 
-            OnKeyPressed?.Invoke(this, new KeyboardInputEventArgs(line));
+            this.InvokeOnKeyPressed(line);
         }
     }
 }

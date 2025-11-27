@@ -114,7 +114,7 @@ public class Program
         DelegateComposition function2 = g;
         int x = 100;
 
-        DelegateComposition fCompG = Comp(function1, function2);
+        DelegateComposition fCompG = Comp(f, g);
         x = fCompG(x);
 
         Console.WriteLine(x);
