@@ -26,19 +26,25 @@ public class Program
         magazin.adaugaJoc(gtasa);
         magazin.adaugaJoc(amongUs);
 
-        DateTime dataInainteDe = new DateTime(2019, 12, 25);
+        DateTime dataInainteDe = new DateTime(2013, 6, 25);
         List<Joc> jocInainteDe = magazin.JocuriInainteDe(dataInainteDe).ToList();
+        Console.WriteLine($"Jocuri inainte de {dataInainteDe}:");
         printList(jocInainteDe);
+        Console.WriteLine();
 
         int an1 = 2008, an2 = 2015;
         Console.WriteLine($"Intre {an1} si {an2} au fost lansate {magazin.JocuriIntre(an1, an2)} jocuri\n");
 
         List<Joc> listaOrdontataDupaDezvoltatorSiNume = magazin.OrdoneazaDupaDezvoltatorSiNume();
+        Console.WriteLine($"Jocuri ordonate dupa dezvoltator si nume");
         printList(listaOrdontataDupaDezvoltatorSiNume);
+        Console.WriteLine();
 
         String rockstar = "Rockstar North";
         List<Joc> listaOrdonataDupaDezvoltatorDupaPret = magazin.JocuriDupaDezvoltatorOrdonateDupaPret(rockstar);
+        Console.WriteLine($"Jocuri ale dezvoltatorului {rockstar} ordonate dupa pret");
         printList(listaOrdonataDupaDezvoltatorDupaPret);
+        Console.WriteLine();
 
         Joc celMaiVechi = magazin.PrimulJocAlDezvoltatorului(rockstar);
         Console.WriteLine($"Cel mai vechi joc al dezvoltatorului {rockstar} este {celMaiVechi.nume}");
@@ -61,6 +67,7 @@ public class Program
         Console.WriteLine($"Suma este {suma}\n");
 
         List<Joc> listaJocuriCelPutinOEticheta = magazin.JocuriCareContinCelPutinOEticheta(etichete);
+        Console.WriteLine($"Jocuri care contin cel putin o eticheta:");
         printList(listaJocuriCelPutinOEticheta);
     }
 }

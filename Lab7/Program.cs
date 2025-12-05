@@ -8,7 +8,7 @@
         CharListener char1 = new CharListener('d', reader);
         CharListener char2 = new CharListener('a', reader);
 
-        ComplexListener complex1 = new ComplexListener(5, reader);
+        ComplexListener complex1 = new ComplexListener(3, reader);
 
         reader.ReadKeys();
     }
