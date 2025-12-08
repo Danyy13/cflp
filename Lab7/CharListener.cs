@@ -10,6 +10,11 @@ public class CharListener
 
     public void HandleKeyPressed(object sender, KeyboardInputEventArgs input)
     {
+        if(input.InputString == "print all" || input.InputString == "print last")
+        {
+            return;
+        }
+
         bool found = false;
         foreach(char character in input.InputString)
         {

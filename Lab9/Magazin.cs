@@ -9,7 +9,7 @@ public class Magazin
 
     public List<Joc> JocuriInainteDe(DateTime data)
     {
-        IEnumerable<Joc> ret = this.jocuri.Where(joc => (joc.dataLansare.Year < data.Year && joc.dataLansare.Month < data.Month && joc.dataLansare.Day < data.Day));
+        IEnumerable<Joc> ret = this.jocuri.Where(joc => (DateTime.Compare(joc.dataLansare, data) < 0));
 
         return ret.ToList();
     }
