@@ -36,7 +36,7 @@ public class Dealership
 
     public string selectModelAndYearUnderPrice(decimal price)
     {
-        var makeAndYear = cars.Where(car => car.price < price).Select(car => $"Make: {car.make}\tYear: {car.year}");
+        var makeAndYear = cars.Where(car => car.price < price).Select(car => $"Model: {car.model}\tYear: {car.year}\tPrice: {car.price:C}");
         return string.Join("\n", makeAndYear);
     }
 
